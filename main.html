@@ -1,16 +1,84 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architectural Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            width: 1100px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .imageContainer {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .imageContainer img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            vertical-align: middle;
+            text-align: center;
+        }
+
+        td img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .textContent {
+            text-align: left;
+            font-size: 16px;
+        }
+
+        /* Specific column width */
+        .col-200 {
+            width: 200px;
+        }
+
+        .col-600 {
+            width: 600px;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <h1>Architectural Information</h1>
 
+    <!-- Image container -->
+    <div class="imageContainer">
+        <img src="architecture_overview.jpg" alt="Overview of Architecture">
+    </div>
+
+    <!-- Table structure -->
+    <table>
+        <tr>
+            <td class="col-200"><img src="architecture1.jpg" alt="Architecture Image 1"></td>
+            <td class="col-600 textContent">This is the text content for the architectural description of the first row. It provides information about design and structure.</td>
+            <td class="col-200"><img src="architecture2.jpg" alt="Architecture Image 2"></td>
+        </tr>
+        <tr>
+            <td class="col-200"><img src="architecture3.jpg" alt="Architecture Image 3"></td>
+            <td class="col-600 textContent">This is the text content for the architectural description of the second row. It describes various architectural styles and methods.</td>
+            <td class="col-200"><img src="architecture4.jpg" alt="Architecture Image 4"></td>
+        </tr>
+    </table>
 </body>
-
 </html>
